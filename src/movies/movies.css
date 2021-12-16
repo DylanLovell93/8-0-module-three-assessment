@@ -1,3 +1,9 @@
 .movies {
   background-color: teal;
+  padding: 30px 0px;
+}
+.movies h1 {
+  text-align: center;
+  margin: 0px;
+  font-size: 4em;
 }

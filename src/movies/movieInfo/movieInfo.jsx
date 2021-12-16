@@ -1,6 +1,6 @@
 import './movieInfo.css';
 
-const movieInfo = () => {
+const movieInfo = (props) => {
   return <div className="movieInfo">movieInfo</div>;
 };
 
