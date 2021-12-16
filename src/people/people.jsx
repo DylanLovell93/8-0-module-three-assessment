@@ -30,10 +30,11 @@ class people extends Component {
     });
   };
 
-  handleSubmit = () => {
+  handleSubmit = (event) => {
+    event.preventDefault();
     const { search, allPeople } = this.state;
     const targetPerson = allPeople.find(
-      (person) => person.name.toLowerCase() === search
+      (person) => person.name.toLowerCase() === search.toLowerCase()
     );
     this.setState({
       searchResult: targetPerson,
@@ -41,11 +42,15 @@ class people extends Component {
   };
 
   render() {
+    const { searchResult } = this.state;
     return (
       <div className="people">
         <h1>Select a Movie</h1>
-        <PersonSearch />
-        <PersonInfo />
+        <PersonSearch
+          handleInput={this.handleInput}
+          handleSubmit={this.handleSubmit}
+        />
+        <PersonInfo result={searchResult} />
       </div>
     );
   }
