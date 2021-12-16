@@ -45,7 +45,7 @@ class people extends Component {
     const { searchResult } = this.state;
     return (
       <div className="people">
-        <h1>Select a Movie</h1>
+        <h1>Search for a Person</h1>
         <PersonSearch
           handleInput={this.handleInput}
           handleSubmit={this.handleSubmit}
