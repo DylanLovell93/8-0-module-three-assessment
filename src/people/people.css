@@ -1,3 +1,15 @@
 .people {
   background-color: green;
+  padding: 30px 0px;
+  width: 800px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 40px 5px white;
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+}
+.people h1 {
+  text-align: center;
+  margin: 0px;
+  font-size: 4em;
+  color: white;
 }
