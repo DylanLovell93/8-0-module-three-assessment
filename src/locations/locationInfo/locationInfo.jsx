@@ -7,7 +7,7 @@ const locationInfo = (props) => {
   const info = locations.map((location) => (
     <SingleLocation location={location} />
   ));
-  return <div className="locationInfo">{showInfo && info}</div>;
+  return <ul className="locationInfo">{showInfo && info}</ul>;
 };
 
 export default locationInfo;
