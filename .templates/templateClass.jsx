@@ -7,7 +7,7 @@ class template extends Component {
   }
 
   render() {
-    return <div className="template"></div>;
+    return <div className="template">template</div>;
   }
 }
 
