@@ -1,7 +1,13 @@
 import './navIcon.css';
-
+import { Link } from 'react-router-dom';
 const navIcon = () => {
-  return <div className="navIcon">navIcon</div>;
+  const icon = 'https://puu.sh/IwHq7.png';
+  return (
+    <div className="navIcon">
+      <Link to="/">
+        <img src={icon} />
+      </Link>
+    </div>
+  );
 };
-
 export default navIcon;
