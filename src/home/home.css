@@ -1,3 +1,9 @@
 .home {
   background-color: salmon;
+  padding: 30px 0px;
+}
+.home h1 {
+  text-align: center;
+  margin: 0px;
+  font-size: 4em;
 }
