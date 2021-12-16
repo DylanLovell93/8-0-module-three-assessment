@@ -12,7 +12,7 @@ const navLinks = () => {
           <Link to="/people">People</Link>
         </li>
         <li>
-          <Link to="/locations">Location</Link>
+          <Link to="/locations">Locations</Link>
         </li>
       </ul>
     </div>

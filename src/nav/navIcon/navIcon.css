@@ -1,14 +1,15 @@
 .navIcon {
   background-color: rgb(150, 150, 150);
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   margin: auto 0px;
-  border-radius: 50%;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 0px;
   box-sizing: border-box;
   border: 2px solid rgba(0, 0, 0, 0.8);
 }
 .navIcon img {
-  height: 100%;
-  width: 100%;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
 }
