@@ -1,6 +1,34 @@
 .navLinks {
-  background-color: tomato;
-  width: 700px;
+  width: auto;
   margin: auto 0px;
   height: 45px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.navLinks ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-inline-start: 0px;
+  margin: 0;
+  align-items: center;
+}
+
+.navLinks li {
+  display: flex;
+  margin: 0px 20px;
+}
+
+.navLinks li a,
+.navLinks li a:hover,
+.navLinks li a:visited,
+.navLinks li a:active {
+  text-decoration: none;
+  color: White;
+  font-size: 25px;
 }
